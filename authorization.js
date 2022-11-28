@@ -1,5 +1,5 @@
 const database = [
-  { name: "admin", mail: "admin", pass: 123 },
+  { name: "admin", mail: "admin", pass: 213 },
   {
     name: "Valera Kamelkov",
     mail: "bmm2322.vkamelkov@dakkkim.edu.ua",
@@ -9,6 +9,11 @@ const database = [
     name: "Pavlo Dyshlliuk",
     mail: "bmm2322.pdyshliuk@dakkkim.edu.ua",
     pass: 78963,
+  },
+  {
+    name: "Ilya Zinchenko",
+    mail: "bmm2322.izinchenko@dakkkim.edu.ua",
+    pass: 200520052005,
   },
 ];
 
