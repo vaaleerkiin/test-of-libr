@@ -203,6 +203,12 @@ footer span {
   height: 40px;
 }
 
+@media screen and (max-width: 768px) {
+  .search {
+    position: sticky;
+  }
+}
+
 .search form {
   display: flex;
   justify-content: center;
