@@ -18,8 +18,8 @@ let inputPass = document.querySelector("#pass");
 let backdrop = document.querySelector(".backdrop--authorization");
 button.addEventListener("click", () => {
   if (check()) {
-    backdrop.classList.add("hide");
-    document.querySelector(".modal-open").classList.remove("modal-open");
+    document.querySelector("#go-to-main").classList.remove("invalid");
+    document.querySelector("#go-to-main").setAttribute("href", "./main.html");
   } else if (inputMail.value == false || inputPass.value == false) {
     alert("Заповніть всі поля!");
   } else {
