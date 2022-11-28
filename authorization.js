@@ -18,6 +18,7 @@ button.addEventListener("click", () => {
     database.find((el) => el.pass == inputPass.value)
   ) {
     backdrop.classList.add("hide");
+    document.querySelector(".modal-open").classList.remove("modal-open");
   } else if (inputMail.value == false || inputPass.value == false) {
     alert("Заповніть всі поля!");
   } else {

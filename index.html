@@ -7,7 +7,7 @@
     <title>основна сторінка</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="modal-open">
     <header>
       <h1>Як користуватись сайтом?</h1>
       <button data-modal-open class="how" type="button">дивись тут!!!</button>
@@ -680,6 +680,16 @@
         href="./Questions-for-the-exam/№133.html"
         >№133.</a
       >
+      <div class="search">
+        <form>
+          <input
+            class="place_for_search"
+            type="text"
+            id="text-to-find"
+            placeholder="Search"
+          />
+        </form>
+      </div>
     </div>
     <div data-modal-close class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -698,22 +708,13 @@
           rel="noreferrer noopener nofollow"
           class="footer-link"
           href="https://github.com/vaaleerkiin/Questions-for-the-exam-history"
-          ><svg class="soc__icon--light" width="40" height="40">
+          ><svg class="footer--icon" width="40" height="40">
             <use href="symbol-defs.svg#icon-github"></use>
           </svg>
         </a>
       </div>
     </footer>
-    <div class="search">
-      <form>
-        <input
-          class="place_for_search"
-          type="text"
-          id="text-to-find"
-          placeholder="Search"
-        />
-      </form>
-    </div>
+
     <div class="backdrop backdrop--authorization">
       <div class="modal--authorization">
         <h2 class="title--authorization">Авторизація</h2>
