@@ -15,6 +15,11 @@ const database = [
     mail: "bmm2322.izinchenko@dakkkim.edu.ua",
     pass: 200520052005,
   },
+  {
+    name: "Ilya Kvas",
+    mail: "bmm2322.ikvas@dakkkim.edu.ua",
+    pass: "@pyzdec12",
+  },
 ];
 
 const button = document.querySelector("#submit");
