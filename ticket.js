@@ -8,4 +8,4 @@ const ticketMaker = (amount) => {
     mainList.innerHTML += htmlString;
   }
 };
-ticketMaker(115);
+ticketMaker(133);
