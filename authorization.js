@@ -20,6 +20,11 @@ const database = [
     mail: "bmm2322.ikvas@dakkkim.edu.ua",
     pass: "@pyzdec12",
   },
+  {
+    name: "Svitlana Mostova",
+    mail: "mostovasvitlanka@gmail.com",
+    pass: "03062005sv",
+  },
 ];
 
 const button = document.querySelector("#submit");
