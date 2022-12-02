@@ -7,51 +7,52 @@
     <title>основна сторінка</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <header>
-      <h1>Як користуватись сайтом?</h1>
-      <button data-modal-open class="how" type="button">дивись тут!!!</button>
-    </header>
-    <div><h2></h2></div>
-    <div class="main-list">
-      <div class="search">
-        <form>
-          <input
-            class="place_for_search"
-            type="text"
-            id="text-to-find"
-            placeholder="Search"
-          />
-        </form>
+  <body class="">
+    <div class="213">
+      <header>
+        <h1>Як користуватись сайтом?</h1>
+        <button data-modal-open class="how" type="button">дивись тут!!!</button>
+      </header>
+      <div><h2></h2></div>
+      <div class="main-list">
+        <div class="search">
+          <form class="123">
+            <input
+              class="place_for_search"
+              type="text"
+              id="text-to-find"
+              placeholder="Search"
+            />
+          </form>
+        </div>
       </div>
+      <div data-modal-close class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <span class="modal-text"
+            >На сайті є власний пошук (знизу та справа). Щоб знайти білет, треба
+            просто в пошуку ввести номер вашого запитання, а далі пошук все
+            знайде. Дякую!!
+          </span>
+        </div>
+      </div>
+      <footer>
+        <div>
+          <span>Дякую що обрали мій ресурс</span>
+          <a
+            target="_blank"
+            rel="noreferrer noopener nofollow"
+            class="footer-link"
+            href="https://github.com/vaaleerkiin/test-of-libr"
+            ><svg class="footer--icon" width="40" height="40">
+              <use href="symbol-defs.svg#icon-github"></use>
+            </svg>
+          </a>
+        </div>
+      </footer>
     </div>
-    <div data-modal-close class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <span class="modal-text"
-          >На сайті є власний пошук (знизу та справа). Щоб знайти білет, треба
-          просто в пошуку ввести номер вашого запитання, а далі пошук все
-          знайде. Дякую!!
-        </span>
-      </div>
-    </div>
-    <footer>
-      <div>
-        <span>Дякую що обрали мій ресурс</span>
-        <a
-          target="_blank"
-          rel="noreferrer noopener nofollow"
-          class="footer-link"
-          href="https://github.com/vaaleerkiin/test-of-libr"
-          ><svg class="footer--icon" width="40" height="40">
-            <use href="symbol-defs.svg#icon-github"></use>
-          </svg>
-        </a>
-      </div>
-    </footer>
-
     <script src="ticket.js"></script>
-    <script type="module" src="history.js"></script>
     <script type="module" src="search.js"></script>
+    <script src="/Questions-for-the-exam/utilit_script.js"></script>
     <script type="module" src="modal.js"></script>
   </body>
 </html>
