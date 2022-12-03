@@ -25,6 +25,11 @@ const database = [
     mail: "mostovasvitlanka@gmail.com",
     pass: "03062005sv",
   },
+  {
+    name: "Andrey Papshoi",
+    mail: "bmm2322.apapshoi@dakkkim.edu.ua",
+    pass: "020605aaa",
+  },
 ];
 
 const button = document.querySelector("#submit");
