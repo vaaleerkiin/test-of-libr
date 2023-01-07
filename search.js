@@ -8,13 +8,6 @@ document.querySelector("#text-to-find").oninput = function () {
         elem.innerHTML = elem.innerText;
       } else {
         elem.classList.remove("hide");
-        // let str = elem.innerText;
-        // elem.innerHTML = insertMark(
-        //   str,
-        //   elem,
-        //   innerText.search(val),
-        //   val.length
-        // );
       }
     });
   } else {
@@ -25,13 +18,3 @@ document.querySelector("#text-to-find").oninput = function () {
     });
   }
 };
-
-// function insertMark(string, pos, len) {
-//   return (
-//     string.slice(0, pos) +
-//     "<mark>" +
-//     string.slice(pos, pos + len) +
-//     "</mark>" +
-//     string.slice(pos + len)
-//   );
-// }
